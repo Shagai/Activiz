@@ -829,7 +829,7 @@ if(AVDN_DO_COPY_LIBRARIES_STEPS)
         vtkalglib
         vtkDICOMParser
         vtkexoIIc
-        vtkftgl
+        #vtkftgl
         vtkhdf5
         vtkhdf5_hl
         vtkmetaio
@@ -1041,7 +1041,7 @@ else()
       endif()
       target_link_libraries(Kitware.VTK.${module}.Unmanaged ${module})
       # This is odd and should be changed (by JJ)
-      target_link_libraries(Kitware.VTK.${module}.Unmanaged vtkRenderingFreeTypeOpenGL vtkRenderingFreeType vtkInteractionStyle vtkRenderingVolumeOpenGL)
+      target_link_libraries(Kitware.VTK.${module}.Unmanaged vtkRenderingFreeType vtkInteractionStyle vtkRenderingVolumeOpenGL vtkRenderingContextOpenGL)
       foreach(dep ${${module}_LINK_DEPENDS})
         if(NOT "${dep}" STREQUAL "${module}")
           if(NOT ${dep}_EXCLUDE_FROM_WRAPPING)

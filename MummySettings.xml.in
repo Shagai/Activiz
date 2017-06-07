@@ -27,6 +27,7 @@
   <Class name="vtkDebugLeaksObserver" wrappable="false"/>
   <Class name="vtkEdgeType" wrappable="false"/>
   <Class name="vtkExodusIICacheKey" wrappable="false"/>
+  <Class name="vtkFastGeomQuadStruct" wrappable="false"/>
   <Class name="vtkHyperTreeSuperCursor" wrappable="false"/>
   <Class name="vtkImageComplex" wrappable="false"/>
   <Class name="vtkImageConnectorSeed" wrappable="false"/>
@@ -42,6 +43,7 @@
   <Class name="vtkQuaterniond" wrappable="false"/>
   <Class name="vtkRectf" wrappable="false"/>
   <Class name="vtkRectd" wrappable="false"/>
+  <Class name="vtkRecti" wrappable="false"/>
   <Class name="vtkRenderState" wrappable="false"/>
   <Class name="vtkShader2" wrappable="false"/>
   <Class name="vtkShader2Collection" wrappable="false"/>
